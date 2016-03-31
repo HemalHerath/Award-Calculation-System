@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Level6">
+   <children>
+      <Label layoutX="75.0" layoutY="79.0" prefHeight="40.0" prefWidth="161.0" text="Referral2 Marks L6" textFill="#c30e0e">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="170.0" text="Module" textFill="#f8f4f4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ICT1_refferal_2L6" alignment="CENTER" layoutX="107.0" layoutY="170.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_1" text="0" />
+      <TextField fx:id="ICT2_refferal_2L6" alignment="CENTER" layoutX="107.0" layoutY="205.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_2" text="0" />
+      <TextField fx:id="ICT3_refferal_2L6" alignment="CENTER" layoutX="107.0" layoutY="241.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT3" text="0" />
+      <Button layoutX="488.0" layoutY="310.0" mnemonicParsing="false" onAction="#Refferal2L6Submit" text="Submit" textFill="#c30e0e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="410.0" layoutY="169.0" text="Module" textFill="#f8f4f4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ICT1_refferal21L6" alignment="CENTER" layoutX="488.0" layoutY="169.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_1" text="0" />
+      <TextField fx:id="ICT2_refferal21L6" alignment="CENTER" layoutX="488.0" layoutY="204.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_2" text="0" />
+      <TextField fx:id="ICT3_refferal21L6" alignment="CENTER" layoutX="488.0" layoutY="240.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT3" text="0" />
+      <Label layoutX="221.0" layoutY="169.0" text="Module" textFill="#f8f4f4">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ICT1_refferal22L6" alignment="CENTER" layoutX="299.0" layoutY="169.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_1" text="0" />
+      <TextField fx:id="ICT2_refferal22L6" alignment="CENTER" layoutX="299.0" layoutY="204.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_2" text="0" />
+      <TextField fx:id="ICT3_refferal22L6" alignment="CENTER" layoutX="299.0" layoutY="240.0" onKeyTyped="#InvalidReferral2L6Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT3" text="0" />
+      <Label layoutX="296.0" layoutY="91.0" text="If any module is not used please input 0" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <ImageView fitHeight="78.0" fitWidth="96.0" layoutX="504.0">
+         <image>
+            <Image url="@../../LWC13CLMSUN__1500_.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="33.0" layoutY="371.0" text="No where in Particular" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="483.0" layoutY="371.0" text="University of Gugsi" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <InnerShadow choke="0.37" color="#900d0d" height="255.0" radius="127.0" width="255.0" />
+   </effect>
+</AnchorPane>

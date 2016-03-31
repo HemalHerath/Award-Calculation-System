@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Level4">
+   <children>
+      <Label layoutX="73.0" layoutY="86.0" prefHeight="40.0" prefWidth="137.0" text="Referral2 Marks" textFill="#c60909">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="155.0" text="Module" textFill="#fcf7f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ICT1_refferal_2" alignment="CENTER" layoutX="138.0" layoutY="156.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_1" text="0" />
+      <TextField fx:id="ICT2_refferal_2" alignment="CENTER" layoutX="138.0" layoutY="193.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_2" text="0" />
+      <TextField fx:id="ICT3_refferal_2" alignment="CENTER" layoutX="138.0" layoutY="230.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT3" text="0" />
+      <Button layoutX="470.0" layoutY="318.0" mnemonicParsing="false" onAction="#Refferal2Submit" text="Submit" textFill="#c60909">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblRef2Marks" layoutX="270.0" layoutY="244.0" prefHeight="27.0" prefWidth="73.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="399.0" layoutY="155.0" text="Module" textFill="#fcf7f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ICT1_refferal21" alignment="CENTER" layoutX="470.0" layoutY="155.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_1" text="0" />
+      <TextField fx:id="ICT2_refferal21" alignment="CENTER" layoutX="470.0" layoutY="190.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_2" text="0" />
+      <TextField fx:id="ICT3_refferal21" alignment="CENTER" layoutX="470.0" layoutY="229.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT3" text="0" />
+      <Label layoutX="231.0" layoutY="157.0" text="Module" textFill="#fcf7f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ICT1_refferal22" alignment="CENTER" layoutX="307.0" layoutY="155.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_1" text="0" />
+      <TextField fx:id="ICT2_refferal22" alignment="CENTER" layoutX="307.0" layoutY="192.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT_2" text="0" />
+      <TextField fx:id="ICT3_refferal22" alignment="CENTER" layoutX="307.0" layoutY="229.0" onKeyTyped="#InvalidReferral2Marks" prefHeight="25.0" prefWidth="57.0" promptText="ICT3" text="0" />
+      <Label layoutX="290.0" layoutY="96.0" text="If any module is not used please input 0" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <ImageView fitHeight="78.0" fitWidth="96.0" layoutX="505.0">
+         <image>
+            <Image url="@../../LWC13CLMSUN__1500_.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="22.0" layoutY="369.0" text="No where in Particular" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="472.0" layoutY="369.0" text="University of Gugsi" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <InnerShadow choke="0.37" color="#8a0707" height="255.0" radius="127.0" width="255.0" />
+   </effect>
+</AnchorPane>

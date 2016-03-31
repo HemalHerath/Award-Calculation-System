@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Level6">
+   <children>
+      <Button layoutX="437.0" layoutY="536.0" mnemonicParsing="false" onAction="#Level6" text="Submit" textFill="#ae0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="175.0" layoutY="51.0" text="Welcome to Level6" textFill="#ae0b0b">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="66.0" layoutY="536.0" mnemonicParsing="false" onAction="#Goback2" text="back" textFill="#ae0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="44.0" layoutY="119.0" text="3rd year" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="159.0" text="Module_01" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtICT1_1_6" alignment="CENTER" layoutX="136.0" layoutY="159.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_01">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <Label layoutX="56.0" layoutY="286.0" text="Module_02" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="56.0" layoutY="411.0" text="Module_03" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtICT2_1_6" alignment="CENTER" layoutX="136.0" layoutY="200.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_02">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT3_1_6" alignment="CENTER" layoutX="136.0" layoutY="240.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_03">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <Label layoutX="333.0" layoutY="157.0" text="Module_04" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="333.0" layoutY="285.0" text="Module_05" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtICT1_2_6" alignment="CENTER" layoutX="136.0" layoutY="286.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_01">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT2_2_6" alignment="CENTER" layoutX="136.0" layoutY="327.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_02">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT3_2_6" alignment="CENTER" layoutX="136.0" layoutY="367.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_03">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT1_3_6" alignment="CENTER" layoutX="136.0" layoutY="407.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_01">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT2_3_6" alignment="CENTER" layoutX="136.0" layoutY="448.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_02">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT3_3_6" alignment="CENTER" layoutX="136.0" layoutY="488.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_03">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT1_4_6" alignment="CENTER" layoutX="406.0" layoutY="158.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_01">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT2_4_6" alignment="CENTER" layoutX="406.0" layoutY="199.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_02">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT3_4_6" alignment="CENTER" layoutX="406.0" layoutY="239.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_03">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT1_5_6" alignment="CENTER" layoutX="406.0" layoutY="286.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_01">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT2_5_6" alignment="CENTER" layoutX="406.0" layoutY="327.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_02">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField fx:id="txtICT3_5_6" alignment="CENTER" layoutX="406.0" layoutY="367.0" onKeyTyped="#InvalidLevel6Marks" prefHeight="25.0" prefWidth="80.0" promptText="ICT_03">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <Label fx:id="lbl1level6" layoutX="251.0" layoutY="244.0" prefHeight="27.0" prefWidth="67.0" textFill="#ae0b0b" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2level6" layoutX="251.0" layoutY="371.0" prefHeight="27.0" prefWidth="59.0" textFill="#ae0b0b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl3level6" layoutX="251.0" layoutY="492.0" prefHeight="27.0" prefWidth="67.0" textFill="#ae0b0b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl4level6" layoutX="518.0" layoutY="244.0" prefHeight="27.0" prefWidth="67.0" textFill="#ae0b0b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl5level6" layoutX="518.0" layoutY="371.0" prefHeight="27.0" prefWidth="67.0" textFill="#ae0b0b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="78.0" fitWidth="96.0" layoutX="504.0">
+         <image>
+            <Image url="@../../LWC13CLMSUN__1500_.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="24.0" layoutY="579.0" text="No where in Particular" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="474.0" layoutY="579.0" text="University of Gugsi" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <InnerShadow choke="0.38" color="#ab0b0b" height="255.0" radius="127.0" width="255.0" />
+   </effect>
+</AnchorPane>

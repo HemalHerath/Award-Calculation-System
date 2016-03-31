@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Award">
+   <children>
+      <Label layoutX="225.0" layoutY="58.0" text="Award" textFill="#c30a0a">
+         <font>
+            <Font name="Cooper Black" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="460.0" layoutY="536.0" mnemonicParsing="false" onAction="#Next" text="Next Student" textFill="#c30a0a">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label fx:id="lblUsername" layoutX="157.0" layoutY="245.0" prefHeight="58.0" prefWidth="157.0" textFill="#c30a0a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblregisternumber" layoutX="157.0" layoutY="310.0" prefHeight="58.0" prefWidth="157.0" textFill="#c30a0a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAward" layoutX="92.0" layoutY="178.0" mnemonicParsing="false" onAction="#GetAward" prefHeight="25.0" prefWidth="92.0" text="Get Award" textFill="#c30a0a">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="47.0" layoutY="123.0" text="Click Get Award to see Award " textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="DegreeType" layoutX="158.0" layoutY="375.0" prefHeight="58.0" prefWidth="430.0" textFill="#c30a0a">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="265.0" text="Student Nme" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="329.0" text="Student ID" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="395.0" text="Degree Type" textFill="#f8f6f6">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="78.0" fitWidth="96.0" layoutX="504.0">
+         <image>
+            <Image url="@../../LWC13CLMSUN__1500_.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="21.0" layoutY="569.0" text="No where in Particular" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="471.0" layoutY="569.0" text="University of Gugsi" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <InnerShadow choke="0.37" color="#940c0c" height="255.0" radius="127.0" width="255.0" />
+   </effect>
+</AnchorPane>
